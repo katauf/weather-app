@@ -10,7 +10,7 @@ const WeatherPresentation = ({forecast, city} ) => {
     let description = forecast.map(f => f.weather[0].description);
     
     return (<div className="current">
-        <h3>{city.name}</h3>
+        <h3 className="text-info">{city.name}</h3>
         <p>{time[0]}</p>
         <p>{temp[0]}&deg;</p>
         <p>{description[0]}</p>

@@ -10,7 +10,7 @@ const ForecastPresentation = ({forecast} ) => {
 
     return (<div className="box">
     <table className="table table-borderless table-sm">
-        <thead className="font-weight-bold"><tr><td>5-dagarsprognos: </td></tr></thead>
+        <thead className="font-weight-bold text-info"><tr><td>5-dagarsprognos: </td></tr></thead>
         <tbody>
             <tr>    
                 <td>{time[8]}</td>
