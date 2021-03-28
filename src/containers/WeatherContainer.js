@@ -27,7 +27,7 @@ const WeatherContainer = () => {
     },[]);
 
         const search = (searchText) => {
-
+            
             const url = "https://api.openweathermap.org/data/2.5/forecast?q=" + searchText +"&lang=sv&units=metric&appid=cc2e33e5dff469e16960b7017b4b53ad";
            
             fetch(url)

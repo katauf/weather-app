@@ -9,7 +9,8 @@ const ForecastPresentation = ({forecast} ) => {
     let icon = forecast.map(i => i.weather[0].icon);
 
     return (<div className="box">
-    <table className="table">
+    <table className="table table-borderless table-sm">
+        <thead className="font-weight-bold"><tr><td>5-dagarsprognos: </td></tr></thead>
         <tbody>
             <tr>    
                 <td>{time[8]}</td>
