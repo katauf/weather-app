@@ -8,7 +8,7 @@ const ForecastPresentation = ({forecast} ) => {
     let maxTemp =  forecast.map(m => Math.round(m.main.temp_max));
     let icon = forecast.map(i => i.weather[0].icon);
 
-    return (<div className="box">
+    return (<div className="box d-inline-flex p-3">
     <table className="table table-borderless table-sm">
         <thead className="font-weight-bold text-info"><tr><td>5-dagarsprognos: </td></tr></thead>
         <tbody>
