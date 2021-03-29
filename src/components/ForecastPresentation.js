@@ -1,5 +1,5 @@
 import React from 'react';
-import './ForecastPresentation.css'
+import '../styles/ForecastPresentation.css';
 
 const ForecastPresentation = ({forecast} ) => {
 

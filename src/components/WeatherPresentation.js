@@ -1,5 +1,5 @@
 import React from 'react';
-import './WeatherPresentation.css';
+import '../styles/WeatherPresentation.css';
 
 
 const WeatherPresentation = ({forecast, city} ) => {
